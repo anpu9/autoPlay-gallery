@@ -20,7 +20,8 @@
    * this:注意this的飘移，必要时应提前保存
    * 参数配置
    * 位置关系分析(循环的逻辑)
-   * 旋转分析，获取兄弟节点的属性，属性名=兄弟节点的属性  ``` this.posterItems.each(function () {
+   * 旋转分析，获取兄弟节点的属性，属性名=兄弟节点的属性    
+   ``` this.posterItems.each(function () {
           var self = $(this),
             prev = self.prev().get(0) ? self.prev() : _this_.posterLastItem,
             width = prev.width(),
